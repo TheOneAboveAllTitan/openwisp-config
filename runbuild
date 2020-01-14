@@ -7,6 +7,10 @@
 # - $CORES (defaults to 1)
 set -e
 
+BUILD_DIR='./build'
+DOWNLOADS_DIR='./downloads'
+CORES=3
+
 ./runtests
 
 START_TIME=$(date +"%Y-%m-%d-%H%M%S")

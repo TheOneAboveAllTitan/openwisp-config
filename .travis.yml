@@ -19,3 +19,7 @@ script:
       printf "$COMMIT_MESSAGE\n\n"
       checkcommit --message "$COMMIT_MESSAGE"
     fi
+
+branches:
+  only:
+  - fix-74
